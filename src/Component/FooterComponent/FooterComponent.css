@@ -1,0 +1,11 @@
+footer{
+    padding: 50px 20px;
+    background-color: var(--primary-color);   
+}
+footer a i{
+    font-size: 35px !important;
+    transition: 0.3s ease-in-out;
+}
+footer a i:hover{
+    color: aqua;
+ }

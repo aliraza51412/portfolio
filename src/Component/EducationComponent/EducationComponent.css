@@ -1,0 +1,74 @@
+#Education{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+#Education h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 64px;
+    opacity: 0.9;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#Education .edu_content{
+    width: auto;
+    height: 250px;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 15px;
+    border-top: 3px solid var(--primary-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#Education .edu_content:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color) !important;
+    border-top: 10px solid aqua;
+}
+.edu_content h4{
+    font-size: 29px;
+    font-weight: 700;
+    writing-mode: vertical-lr;
+}
+.edu_content p{
+    width: 230px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.edu_content p span{
+    display: block;
+    margin-top: 5px;
+}
+@media screen and (max-width:912px) {
+    #Education{
+        height: auto;
+        padding: 100px 20px;
+    }
+}
+@media screen and (max-width:414px) {
+    #Education h1{
+        font-size: 44px;
+   }
+}
+@media screen and (max-width:390px) {
+    #Education h1{
+        font-size: 24px;
+   }
+   .edu_content {
+        flex-direction: column;
+   }
+   .edu_content h4{
+        writing-mode: horizontal-tb;
+   }
+   .edu_content p {
+        width: 90%;
+   }
+}

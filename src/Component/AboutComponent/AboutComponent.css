@@ -1,0 +1,95 @@
+#About{
+    width: 100%;
+}
+#About .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+#About .about_image img{
+    width: 90%;
+    margin-left: -5 0px;
+}
+/* Second Column styling */
+.about_content{
+    padding: 50px 0;
+}
+.about_content h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 64px;
+    opacity: 0.9;
+    letter-spacing: 2px;
+}
+.about_content p{
+    width: auto;
+    font-size: 17px;
+}
+.about_content .aboutus_list li{
+    padding: 2px 0;
+    margin-left: -32px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.about_content .aboutus_list li a, .about_content .aboutus_list li span{
+    color: #000000;
+    margin-left: 10px;
+    transition: 0.3s ease-in-out;
+}
+.about_content .aboutus_list li a:hover{
+    color: gray;
+    letter-spacing: 1px;
+}
+.about_content .buttons a:nth-child(1){
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    margin: 0 10px 0 0;
+    transition: 0.3s ease-in-out;
+    color: var(--secondary-color);
+    letter-spacing: 1px;
+}
+.about_content .buttons a:nth-child(2){
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid var(--primary-color);
+    margin: 0 10px 0 0;
+    transition: 0.3s ease-in-out;
+    color: #000000;
+    letter-spacing: 1px;
+}
+.about_content .buttons a:nth-child(1):hover{
+    color: #000000;
+    background-color: var(--secondary-color);
+}
+.about_content .buttons a:nth-child(2):hover{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+@media screen and (max-width:1200px) {
+    .about_content h1{
+        font-size: 33px;
+    }
+    .about_content .buttons a:nth-child(1){
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width:540px) {
+    #About .about_image img{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:280px) {
+    .about_content .aboutus_list li a, .about_content .aboutus_list li span{
+        display: block;
+        margin-left: -0px;
+    }
+    .about_content .buttons a{
+        font-size: 14px;
+    }
+    .about_content .buttons a:nth-child(2){
+        padding: 10px;
+    }
+}
