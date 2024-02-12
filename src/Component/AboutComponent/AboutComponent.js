@@ -28,10 +28,10 @@ const AboutComponent = () => {
                         <li>phone<a href='tel:+923032763693'>+92 303 276 3693</a></li>
                         <li>address<span href='https:'>baldia town karachi</span></li>
                       </ul>
-                      <div className='buttons'>
+                      {/* <div className='buttons'>
                         <a href='./pdf/aliraza_resume.pdf' download>download resume</a>
                         <a href='./pdf/aliraza_cover_letter.pdf' download>download cover letter</a>
-                      </div>
+                      </div> */}
                     </div>
                 </div>
             </div>
